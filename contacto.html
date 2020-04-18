@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+  <head>
+    <title>Wallentin Designs</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  
+    <style>
+      .contact {
+        padding: 20px;
+      }
+      .contact-form {
+        margin: 0 100px;
+        width: 50%;
+      }
+      @media only screen and (max-width: 850px) {       
+        .contact {
+          width: 100%;
+        }
+        .contact-form {
+          margin: 0 50px;
+          width: 100%;
+        }
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container txt-main">
+      <div class="flex-row center w100 ribbon">
+        <div><span class="txt-white heading">Contacto</span></div>
+      </div>
+      <div class="flex-col content w100">
+        <div class="flex-row justify-around w100 section flex-wrap">
+          <div class="flex-col justify-between align-center contact">
+            <div><img src="assets/linkedin.png" alt="LinkedIn"/></div>
+            <br>
+            <a href="#"><span class="label">linkedin.com/in/6586931992032530432</span></a>
+          </div>
+          <div class="flex-col justify-between align-center contact">
+            <div><img src="assets/instagram.png" alt="Instagram"/></div>
+            <br>
+            <a href="#"><span class="label">@wallentindesigns/</span></a>
+          </div>
+          <div class="flex-col justify-between align-center contact">
+            <div><img src="assets/email.png" alt="Email"/></div>
+            <br>
+            <a href="#"><span class="label">wallentin.designs@gmail.com</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="spacer w100"></div>
+      <div class="flex-col content w100">
+        <div class="flex-row justify-around w100 section">
+          <div class="flex-row justify-between align-center">
+            <div style="margin-right: 10px;"><img src="assets/download.png" alt="Download"/></div>
+              <a href="assets/Valeria%20Wallentin.pdf" download>Descargar mi curriculum en PDF</a>
+                
+          </div>
+        </div>
+      </div>
+      <div class="spacer w100"></div>
+      <div class="flex-col content w100">
+        <div class="flex-row w100 section">
+          <div class="flex-col w100 contact-form">
+            <br>
+            <div class="flex-col">
+              <span class="label">Nombre</span>
+              <input class="input" type="text"/>
+            </div>
+            <br>
+            <div class="flex-col">
+              <span class="label">Email</span>
+              <input class="input" type="text"/>
+            </div>
+            <br>
+            <div class="flex-col">
+              <span class="label">Mensaje</span>
+              <textarea style="resize: none;" class="input" rows="8"></textarea>
+            </div>
+            <br>
+            <br>
+            <button class="button txt-white">Enviar</button>
+          </div>
+        </div>
+      </div>
+      <div class="flex-row justify-end align-center w100 ribbon">
+        <div><a href="index.html"><span class="txt-white">Inicio</span></a></div>
+      </div>
+    </div>
+  </body>
+</html>

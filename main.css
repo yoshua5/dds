@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+body {
+  background-color: #fefffe;
+  margin: 0;
+}
+
+span {
+  font-size: 1.75em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #848587;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+.row {
+	position: relative;
+}
+
+
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #e47a66;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+.vale {
+float: left;
+ border: 3px solid black;
+width: 50%;
+height: inherit;
+ padding-bottom: 20%;
+ text-align: justify;
+    
+}
+
+.gif {
+    left: px;
+    width: 24%;
+position: absolute;
+ margin: 130px;
+    margin-top: 200px;
+    
+    
+}
+
+
+.column {
+  float: left;
+  width: 24%;
+  height: inherit;
+  border: 2px solid #6b6a6b;
+  margin: 5px;
+    
+}
+
+.column1 {
+  float: left;
+  width: 24%;
+  height: inherit;
+  border: 2px solid #6b6a6b;
+  margin: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 24%;
+  height: inherit;
+  border: 2px solid #6b6a6b;
+  margin: 5px;
+}
+
+.column3 {
+  float: left;
+  width: 24%;
+  height: inherit;
+  border: 2px solid #6b6a6b;
+  margin: 5px;
+}
+
+.column4 {
+  float: left;
+  width: 24%;
+  border: 2px solid #6b6a6b;
+  margin: 5px;
+}
+
+.column5 {
+  float: left;
+  width: 24%;
+  height: inherit;
+  border: 2px solid #6b6a6b;
+  margin: 5px;
+}
+
+
+.column6 {
+  float: left;
+  width: 24%;
+  height: inherit;
+  border: 2px solid #6b6a6b;
+  margin: 5px;
+}
+
+
+
+
+
+img {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: relative;
+	transition: .5 ease;
+	backface-visibility: hidden;
+}
+
+
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer {
+
+  text-align: center;
+  background: #e47a66;
+  color: white;
+  font-size: 30px; 
+ position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+
+
+
+
+img:hover {
+	opacity: .5;
+	display: block;
+    
+}
+
+
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+

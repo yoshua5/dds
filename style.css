@@ -1,0 +1,151 @@
+body {
+  background-color: #fefffe;
+  margin: 0;
+}
+
+span {
+  font-size: 1.75em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #848587;
+}
+
+.main-bg {
+  background-color: #e47a66;
+}
+
+.bg-alt {
+  background-color: #e4e6e7;
+}
+
+.heading {
+  font-size: 3em;
+}
+
+.label {
+  font-size: 15px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.ribbon {
+  background-color: #e47a66;
+}
+.ribbon > div {
+  padding: 60px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.content > div {
+  max-width: 1700px;
+}
+
+.section {
+  padding: 30px 0;
+}
+
+.spacer {
+  height: 15px;
+  background-color: #a3a5a8;
+}
+
+.txt-main {
+  color: #848587;
+}
+
+.txt-white {
+  color: #fff;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+input.input {
+  height: 40px;
+}
+.input {
+  border: 1px solid #6b6a6b;
+  margin-top: 5px;
+}
+.input:focus {
+  outline: none;
+}
+
+.button {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+  height: 40px;
+  background-color: #6b6a6b;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
